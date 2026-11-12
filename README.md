@@ -32,7 +32,7 @@ usage.csv   ⟶ 	40,000 registros de actividad: llamadas y mensajes, con fecha y
 
 3. Limpieza básica de datos: reemplazo de edades inválidas por la mediana, manejo de ciudades y fechas inválidas, y análisis de nulos estructurales en usage.
 
-4.Sumarización de estadísticas descriptivas: agregación de actividad por usuario (mensajes, llamadas y minutos) y creación del perfil de usuario (user_profile).
+4. Sumarización de estadísticas descriptivas: agregación de actividad por usuario (mensajes, llamadas y minutos) y creación del perfil de usuario (user_profile).
 
 5. Visualización y outliers: Análisis por medio de histogramas, boxplots y detección de outliers con el método IQR; Se tomó la decisión de mantenerlos.
 
@@ -58,7 +58,7 @@ usage.csv   ⟶ 	40,000 registros de actividad: llamadas y mensajes, con fecha y
 
 Para obtener los mismos resultados que aparecen en el documento cargado, sigue este orden:
 
-1. Carga correcta: importa pandas, seaborn y matplotlib.pyplot, y explora los tres datasets.
+1. Carga: importa pandas, seaborn y matplotlib.pyplot, y explora los tres datasets.
 
 2. Limpieza: reemplaza "-999" en age por la mediana, convierte "?" en city a nulo, convierte las fechas con pd.to_datetime(errors='coerce') y marca como NaT las fechas de registro posteriores a 2024.
 
