@@ -43,16 +43,30 @@ usage.csv   ⟶ 	40,000 registros de actividad: llamadas y mensajes, con fecha y
 
 ## Cómo ejecutar el notebook
 
-1. Asegúrate de tener instaladas las siguientes librerías de Python:
-* Pandas: para cargar, limpiar y analizar los datos.
-* Seaborn y matplotlib: para crear los gráficos.
-* Jupyter Notebook: para abrir y ejecutar el notebook.
+El proyecto se desarrolló en Jupyter Notebooks dentro del portal de TripleTen, de donde se descargaron los datasets. El notebook y los datos están publicados en el presente repositorio: https://github.com/christian-alatorre/sprint7-final-project
 
-2. Coloca los tres archivos CSV en la carpeta "datasets" (el notebook los lee desde /datasets/plans.csv, /datasets/users_latam.csv y /datasets/usage.csv). Si trabajas fuera de la plataforma del curso, ajusta esas rutas).
+Opción A: en el portal de TripleTen (entorno original)
 
-3. Abre el notebook con jupyter notebook.
+Abre el proyecto en Jupyter Notebooks; los datasets ya están disponibles en /datasets/.
+Ejecuta todas las celdas en orden con Kernel > Restart Kernel and Run All Cells.
 
-4. Ejecuta todas las celdas en orden con Kernel > Restart Kernel and Run All Cells.
+Opción B: desde el presente repositorio para abrir en Google Colab o Jupyter local
+
+Descarga o clona el repositorio.
+Abre el notebook en Google Colab (Archivo > Abrir cuaderno > GitHub, y pega el enlace del repositorio) o en Jupyter local. 
+
+Para Jupyter local necesitas Python con estas librerías:
+Pandas: para cargar, limpiar y analizar los datos.
+Seaborn y matplotlib: para crear los gráficos.
+Jupyter Notebook: para abrir y ejecutar el notebook.
+
+Sube o coloca los tres archivos CSV (plans.csv, users_latam.csv y usage.csv) y ajusta las rutas de lectura. 
+
+El notebook las lee desde /datasets/; por ejemplo, en Colab cámbialas por la ruta donde subiste los archivos.
+
+Ejecuta todas las celdas en orden:
+* En Colab: Entorno de ejecución > Ejecutar todo.
+* En Jupyter: Kernel > Restart Kernel and Run All Cells).
 
 ## Guía de reproducción
 
